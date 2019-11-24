@@ -5,7 +5,8 @@ int main(){
 	int a = 0;
 	int b = 0;
 	int c = 0;
-	scanf("%d%d", &a, &b);
+	printf("«Î ‰»Îa£¨b\n");
+	scanf("%d %d",&a,&b);
 	printf("Ωªªª«∞a=%d b=%d\n", a, b);
 	c = a;
 	a = b;
