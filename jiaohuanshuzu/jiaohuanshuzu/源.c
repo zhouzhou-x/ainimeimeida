@@ -9,7 +9,7 @@ int main()
 	printf("请输入数组A(10位)：");
 	for (i = 0; i<10; i++)
 	{
-		scanf(" %d", &A[i]);
+		scanf("%d", &A[i]);
 	}
 	printf("请输入数组B（10位）：");
 	for (i = 0; i<10; i++)
