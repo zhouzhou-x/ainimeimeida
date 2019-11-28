@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdlib.h>
-void main(){
+void zz(){
 	int a = 0;
 	printf("请输入年份：");
 	scanf("%d", &a);
@@ -12,6 +12,9 @@ void main(){
 	else {
 		printf("%d不是闰年\n", a);
 	}
+}
+void main(){
+	zz();
 	system("pause");
 }
 

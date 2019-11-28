@@ -1,4 +1,4 @@
-﻿生成启动时间为 2019/11/26 21:34:08。
+﻿生成启动时间为 2019/11/28 18:24:01。
      1>项目“D:\vs\ainimeimeida\runnian\runnian\runnian.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt zz4.cpp
@@ -10,4 +10,4 @@
 
 生成成功。
 
-已用时间 00:00:00.55
+已用时间 00:00:02.57
