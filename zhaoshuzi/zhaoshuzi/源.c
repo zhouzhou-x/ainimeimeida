@@ -1,19 +1,15 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-void main(){
-	int a[] = {0,1,2,3,4,6,7,8,9,10};
-	int b = 0;
+int binaryFind(int arr[],int n,int t){
+	int right = n-1;
 	int left = 0;
 	int mid = 0;
-	printf("请输入要查找的数字：");
-	scanf("%d",&b);
-	int right = sizeof(a) / sizeof(a[0])-1;
 	while (left <= right){
 		mid = (left + right) / 2;
-		if (b < a[mid]){
+		if (t < arr[mid]){
 			right = mid-1;
 		}
-		else if (b > a[mid]){
+		else if (t > arr[mid]){
 			left = mid+1;
  		}
 		else{
@@ -21,10 +17,14 @@ void main(){
 		}
 	}
 	if (left <= right)
-		printf("找到了,下标是%d\n", mid);
+		return mid;
 	else
-		printf("找不到\n");
-	system("pause");
-	return 0;
+		return -1;
 	}
-	
+void main(){
+	int arr[] = {1,2,3,4,5,6,7,8,9,10};
+	printf("找到了下标是：%d\n",binaryFind(arr, 10, 11));
+	system("pause");
+
+
+}
