@@ -16,4 +16,8 @@ void main(){
 	}
 	system("pause");
 	return	0;
-}
+}//putchar打印单个字符更快
+//#if 0/1
+//#eles
+//#endif
+//3位运算符？：

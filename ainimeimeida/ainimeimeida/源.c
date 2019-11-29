@@ -15,3 +15,4 @@ void main(){
 	system("pause");
 	return 0;
 }
+//¼ÆËãµ½nÎ»
