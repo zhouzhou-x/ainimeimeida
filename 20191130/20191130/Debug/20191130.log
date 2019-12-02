@@ -1,26 +1,10 @@
-﻿生成启动时间为 2019/12/1 23:15:20。
+﻿生成启动时间为 2019/12/2 15:59:32。
      1>项目“D:\vs\ainimeimeida\20191130\20191130\20191130.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "扫雷源.c"
          扫雷源.c
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(31): warning C4047: “=”:“char”与“char [2]”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(46): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(47): warning C4047: “=”:“char”与“char [2]”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(57): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(62): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(63): warning C4047: “=”:“char”与“char [2]”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(77): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(85): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(92): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(97): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(112): warning C4047: “函数”:“char (*)[3]”与“char”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(112): warning C4024: “player”: 形参和实参 1 的类型不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(115): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(122): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(126): warning C4047: “==”:“int”与“char [2]”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(129): warning C4047: “==”:“int”与“char [2]”的间接级别不同
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(151): warning C4098: “main”:“void”函数返回值
-     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(101): warning C4715: “win”: 不是所有的控件路径都返回值
+     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(105): warning C4013: “draw”未定义；假设外部返回 int
+     1>d:\vs\ainimeimeida\20191130\20191130\扫雷源.c(190): warning C4098: “main”:“void”函数返回值
        Link:
          D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs\ainimeimeida\20191130\Debug\20191130.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\vs\ainimeimeida\20191130\Debug\20191130.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs\ainimeimeida\20191130\Debug\20191130.lib" /MACHINE:X86 "Debug\扫雷源.obj"
          20191130.vcxproj -> D:\vs\ainimeimeida\20191130\Debug\20191130.exe
@@ -28,4 +12,4 @@
 
 生成成功。
 
-已用时间 00:00:00.44
+已用时间 00:00:00.37
