@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="扫雷源.c">
+    <ClCompile Include="3子棋.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
